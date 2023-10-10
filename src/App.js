@@ -3,10 +3,7 @@ import NewExpense from "./components/NewExpenses/NewExpense";
 import ExpensesFilter from './components/ExpenseFilter'
 import {useState} from 'react'
 
-// function App() {
   const App = () => {
-
-
   const [expenses, setExpenses] = useState([
     {id: 1,title1: 'Car insurance', amount1: 345.56, date1: new Date(2023, 10, 7)},
     {id: 2,title1: 'New TV', amount1: 800, date1: new Date(2023, 5, 12)},
